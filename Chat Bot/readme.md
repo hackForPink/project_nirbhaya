@@ -2,8 +2,11 @@
 
 ## How to run this chatbot ##
 
-pip install chatterbot
-pip install chatterbot_corpus
+pip install chatterbot  
 
-Move breastcaner.yml to data folder for chatterbot_corpus
+pip install chatterbot_corpus  
+
+
+Move breastcaner.yml to data folder for chatterbot_corpus  
+
 python main.py 
