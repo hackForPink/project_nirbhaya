@@ -11,20 +11,20 @@ from sklearn.metrics.pairwise import linear_kernel
 def recommend_feed_based_previous_question(qna, mapping, similarity_matrix, question_input):
     question_index = mapping[question_input]
 
-    #get similarity values with other movies
-    #similarity_score is the list of index and similarity matrix
+    # Get similarity values with other questions
+    # Similarity_score is the list of index and similarity matrix
 
     similarity_score = list(enumerate(similarity_matrix[question_index]))
 
-    #sort in descending order the similarity score of movie inputted with all the other movies
+    # Sort in descending order the similarity score of question inputted with all the other questions
     
     similarity_score = sorted(similarity_score, key=lambda x: x[1], reverse=True)
     
-    # Get the scores of the 15 most similar movies. Ignore the first movie.
+    # Get the scores of the 6 most similar questions. Ignore the first question since it 'll be same as the one given as input.
     
-    similarity_score = similarity_score[1:3]
+    similarity_score = similarity_score[1:6]
     
-    #return movie names using the mapping series
+    # Return question titles using the mapping series
     
     question_indices = [i[0] for i in similarity_score]
     
@@ -54,6 +54,7 @@ if __name__ == '__main__':
 
     question_input = input("Enter Your Question : ")
 
-    result = recommend_feed_based_previous_question(qna, mapping, similarity_matrix, question_input)
+    matches = recommend_feed_based_previous_question(qna, mapping, similarity_matrix, question_input)
 
-    print(result)
+    for match in matches:
+        print(match)

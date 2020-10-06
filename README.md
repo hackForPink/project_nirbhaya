@@ -1,3 +1,3 @@
 # Project Nirbhya
 
-## Developed and Designed for Global Hackathon conducted by [ELC](https://elchackathon.com/)
+## Developed and Designed for Global Hackathon conducted by [Estée Lauder Companies](https://elchackathon.com/)
