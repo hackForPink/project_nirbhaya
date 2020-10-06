@@ -1,6 +1,6 @@
-## Chatbot of Project Nirbhaya ##
+# Chatbot of Project Nirbhaya #
 
-# How to run this chatbot #
+## How to run this chatbot ##
 
 pip install chatterbot
 pip install chatterbot_corpus
