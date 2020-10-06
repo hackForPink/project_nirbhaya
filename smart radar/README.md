@@ -10,5 +10,8 @@ Additionally, smart radar provides a way to retail connects for contribution in 
 
 The source file and data file should be in same folder. Open with jupyter notebook and run to see the results. 
 
-Datasource credit - https://gateway.euro.who.int/en/indicators/hfa_375-2350-incidence-of-female-breast-cancer-per-100-000/
+![](https://github.com/hackForPink/project_nirbhaya/blob/smartRadarConclave/smart%20radar/images/xx.png)
 
+![](https://github.com/hackForPink/project_nirbhaya/blob/smartRadarConclave/smart%20radar/images/yy.png)
+
+Datasource credit - https://gateway.euro.who.int/en/indicators/hfa_375-2350-incidence-of-female-breast-cancer-per-100-000/
